@@ -4,7 +4,7 @@ const cors = require('cors');
 require('dotenv').config();
 const app = express();
 app.use(cors({
-  origin: "https://item-manager2435.netlify.app/"  // replace with your actual Netlify URL
+  origin: "https://item-manager2435.netlify.app"  // replace with your actual Netlify URL
 }));
 app.use(express.json());
 
